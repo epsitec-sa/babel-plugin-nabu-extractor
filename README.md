@@ -1,11 +1,11 @@
 # babel-nabu-extractor
 
-Extract Nabu string with babel.
+Extract Nabu strings with babel.
 
 ## Node
 
 ```js
-var babelCore = require ('babelCore');
+const babelCore = require ('babelCore');
 
 babelCore.transform (code, {
   plugins: ['babel-nabu-extractor']
@@ -24,4 +24,4 @@ babel --plugins babel-nabu-extractor code.js
 
 ## License
 
-[MIT License](LICENSE).
+[MIT](LICENSE).
