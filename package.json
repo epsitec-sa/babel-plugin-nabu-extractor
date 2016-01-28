@@ -1,0 +1,35 @@
+{
+  "name": "babel-nabu-extractor",
+  "version": "0.1.0",
+  "description": "Extract Nabu strings with babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsitec-sa/babel-nabu-extractor.git"
+  },
+  "keywords": [
+    "babel",
+    "nabu",
+    "plugin",
+    "i18n"
+  ],
+  "author": "Epsitec SA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epsitec-sa/babel-nabu-extractor/issues"
+  },
+  "homepage": "https://github.com/epsitec-sa/babel-nabu-extractor",
+  "dependencies": {
+    "babel-core": "^6.4.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.4"
+  }
+}
