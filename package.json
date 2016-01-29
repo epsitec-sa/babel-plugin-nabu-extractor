@@ -1,10 +1,10 @@
 {
   "name": "babel-nabu-extractor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract Nabu strings with babel.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha src/test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "chai": "^3.5.0",
+    "mai-chai": "^1.1.2",
     "mocha": "^2.4.4"
   }
 }
