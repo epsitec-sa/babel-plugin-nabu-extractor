@@ -1,6 +1,7 @@
 {
   "maxerr"        : 50,
 
+  // Enforcing
   "bitwise"       : true,
   "camelcase"     : true,
   "curly"         : true,
@@ -11,7 +12,7 @@
   "immed"         : true,
   "indent"        : 2,
   "latedef"       : true,
-  "newcap"        : false,
+  "newcap"        : true,
   "noarg"         : true,
   "noempty"       : true,
   "nonbsp"        : true,
@@ -26,6 +27,7 @@
   "maxstatements" : false,
   "maxcomplexity" : false,
 
+  // Relaxing
   "asi"           : false,
   "boss"          : false,
   "debug"         : false,
@@ -48,8 +50,10 @@
   "scripturl"     : false,
   "shadow"        : false,
   "sub"           : false,
+  "supernew"      : false,
   "validthis"     : false,
 
+  // Environments
   "browser"       : false,
   "browserify"    : false,
   "couch"         : false,
@@ -59,7 +63,7 @@
   "jquery"        : false,
   "mocha"         : true,
   "mootools"      : false,
-  "node"          : true,
+  "node"          : false,
   "nonstandard"   : false,
   "phantom"       : false,
   "prototypejs"   : false,
@@ -68,7 +72,12 @@
   "wsh"           : false,
   "yui"           : false,
 
+  // Custom Globals
   "globals"       : {
-    "require"     : true
+    "require"     : true,
+    "module"      : true,
+    "console"     : true,
+    "document"    : true,
+    "window"      : true
   }
 }
