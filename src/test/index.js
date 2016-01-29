@@ -43,7 +43,7 @@ export default class NabuTest extends Component {
 
 describe ('babel-nabu-plugin', () => {
   describe ('#extract ()', () => {
-    it ('Should return a result', () => {
+    it ('Should extract messages', () => {
       const res = babelCore.transform (JSX, opts);
 
       expect (res.metadata['react-nabu'].messages).to.have.length (5);
