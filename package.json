@@ -1,5 +1,5 @@
 {
-  "name": "babel-nabu-extractor",
+  "name": "babel-plugin-nabu-extractor",
   "version": "0.1.1",
   "description": "Extract Nabu strings with babel.",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epsitec-sa/babel-nabu-extractor.git"
+    "url": "git+https://github.com/epsitec-sa/babel-plugin-nabu-extractor.git"
   },
   "keywords": [
     "babel",
@@ -19,9 +19,9 @@
   "author": "Epsitec SA",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epsitec-sa/babel-nabu-extractor/issues"
+    "url": "https://github.com/epsitec-sa/babel-plugin-nabu-extractor/issues"
   },
-  "homepage": "https://github.com/epsitec-sa/babel-nabu-extractor",
+  "homepage": "https://github.com/epsitec-sa/babel-plugin-nabu-extractor",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.4.5",

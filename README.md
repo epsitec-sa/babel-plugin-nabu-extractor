@@ -1,4 +1,4 @@
-# babel-nabu-extractor
+# babel-plugin-nabu-extractor
 
 Extract Nabu strings with babel.
 
@@ -8,14 +8,14 @@ Extract Nabu strings with babel.
 const babelCore = require ('babelCore');
 
 babelCore.transform (code, {
-  plugins: ['babel-nabu-extractor']
+  plugins: ['babel-plugin-nabu-extractor']
 });
 ```
 
 ## CLI
 
 ```sh
-babel --plugins babel-nabu-extractor code.js
+babel --plugins babel-plugin-nabu-extractor code.js
 ```
 
 ## Options
