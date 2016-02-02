@@ -1,5 +1,7 @@
 'use strict';
 
+const nabuExtractor = require ('nabu-extractor');
+
 /*
  * Inspired by the work of Yahoo for babel-plugin-react-intl.
  */
@@ -90,6 +92,9 @@ module.exports = function () {
           const opts = state.opts;
           const file = state.file;
           file.metadata['react-nabu'] = state.T;
+
+          // FIXME: broken because lowdb is used with async writer
+          // state.T.messages.forEach (msg => nabuExtractor (msg.msgid.value, msg.msgid.desc));
         },
       },
 

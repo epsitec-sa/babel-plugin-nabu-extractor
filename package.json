@@ -32,6 +32,8 @@
     "jsdom": "^7.2.2",
     "mai-chai": "^1.1.2",
     "mocha": "^2.4.4",
-    "react": "^0.14.7"
+    "nabu-extractor": "git+https://github.com/epsitec-sa/nabu-extractor.git",
+    "react": "^0.14.7",
+    "transit-js": "^0.8.846"
   }
 }
