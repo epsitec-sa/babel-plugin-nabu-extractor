@@ -29,7 +29,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "chai": "^3.5.0",
-    "mocha": "^2.4.4",
+    "mocha": "^3.0.2",
     "nabu-extractor": "git+https://github.com/epsitec-sa/nabu-extractor.git",
     "transit-js": "^0.8.846"
   }
