@@ -2,9 +2,9 @@
   "name": "babel-plugin-nabu-extractor",
   "version": "0.1.1",
   "description": "Extract Nabu strings with babel.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha src/test/**/*.js"
+    "test": "mocha test/**/*.spec.js"
   },
   "repository": {
     "type": "git",

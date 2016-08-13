@@ -1,12 +1,12 @@
 'use strict';
 
-const expect    = require ('mai-chai').expect;
+const {expect}  = require ('chai');
 const babelCore = require ('babel-core');
 
 const opts = {
   presets: ['es2015', 'react', 'stage-0'],
   plugins: [
-    ['./src/index.js']
+    ['./lib/index.js']
   ]
 };
 
