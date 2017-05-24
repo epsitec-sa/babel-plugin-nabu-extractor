@@ -31,6 +31,7 @@
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
     "nabu-extractor": "git+https://github.com/epsitec-sa/nabu-extractor.git",
-    "transit-js": "^0.8.846"
+    "transit-js": "^0.8.846",
+    "xcraft-dev-rules": "^0.1.17"
   }
 }
