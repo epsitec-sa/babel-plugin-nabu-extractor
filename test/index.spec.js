@@ -1,13 +1,11 @@
 'use strict';
 
-const {expect}  = require ('chai');
+const {expect} = require ('chai');
 const babelCore = require ('babel-core');
 
 const opts = {
   presets: ['es2015', 'react', 'stage-0'],
-  plugins: [
-    ['./lib/index.js']
-  ]
+  plugins: [['./lib/index.js']],
 };
 
 const JSX = `
@@ -48,11 +46,21 @@ describe ('babel-plugin-nabu', function () {
 
       expect (res.metadata['react-nabu'].messages).to.have.length (5);
 
-      expect (res.metadata['react-nabu'].messages[0].msgid.value).to.be.equal ('First text to translate');
-      expect (res.metadata['react-nabu'].messages[1].msgid.value).to.be.equal ('Your email address');
-      expect (res.metadata['react-nabu'].messages[2].msgid.value).to.be.equal ('Email');
-      expect (res.metadata['react-nabu'].messages[3].msgid.value).to.be.equal ('Your password');
-      expect (res.metadata['react-nabu'].messages[4].msgid.value).to.be.equal ('Password');
+      expect (res.metadata['react-nabu'].messages[0].msgid.value).to.be.equal (
+        'First text to translate'
+      );
+      expect (res.metadata['react-nabu'].messages[1].msgid.value).to.be.equal (
+        'Your email address'
+      );
+      expect (res.metadata['react-nabu'].messages[2].msgid.value).to.be.equal (
+        'Email'
+      );
+      expect (res.metadata['react-nabu'].messages[3].msgid.value).to.be.equal (
+        'Your password'
+      );
+      expect (res.metadata['react-nabu'].messages[4].msgid.value).to.be.equal (
+        'Password'
+      );
     });
   });
 });
